@@ -1,7 +1,7 @@
 # 💼 Ammar Alhmoud – Portfolio Website
 
 Welcome to my personal portfolio website!  
-This is a modern, and responsive web application built to showcase my skills, projects, blogs, and professional journey as a **Software Engineering graduate** with a passion for **Web Development** and **Artificial Intelligence**.
+This is a modern, and responsive web application built to showcase my skills, projects, and professional journey as a **Software Engineering graduate** with a passion for **Web Development** and **Artificial Intelligence**.
 
 ## 🚀 Live Preview
 
