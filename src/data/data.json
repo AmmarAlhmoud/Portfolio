@@ -1,0 +1,269 @@
+{
+  "personal": {
+    "name": "AMMAR ALHMOUD",
+    "title": "Software Engineer",
+    "subtitle": " Web Developer • AI Enthusiast",
+    "description": "Building intelligent, scalable, and user-centered web solutions",
+    "email": "ammar.m.alhmoud@gmail.com",
+    "phone": "+90 5347048020",
+    "location": "Istanbul, Turkey",
+    "availability": "Available for hire"
+  },
+  "navigation": [
+    { "id": "home", "label": "Home", "color": "blue" },
+    { "id": "about", "label": "About", "color": "purple" },
+    { "id": "projects", "label": "Projects", "color": "pink" },
+    { "id": "skills", "label": "Skills", "color": "green" },
+    { "id": "contact", "label": "Contact", "color": "yellow" }
+  ],
+  "about": {
+    "education": [
+      {
+        "degree": "Bachelor of Software Engineering",
+        "university": "Üsküdar Üniversitesi",
+        "period": "2021-2025",
+        "note": "Graduated with High Honors"
+      }
+    ],
+    "experience": [
+      {
+        "position": "Intern",
+        "company": "CODINGAME",
+        "period": "Summer 2024",
+        "technologies": "React.js, Node.js, and Express.js"
+      },
+      {
+        "position": "Intern",
+        "company": "SCRAMBLEBIT",
+        "period": "Summer 2023",
+        "technologies": "HTML, CSS, and JavaScript"
+      }
+    ],
+    "skills": [
+      { "name": "React", "level": 4, "color": "blue" },
+      { "name": "JavaScript", "level": 4, "color": "green" },
+      { "name": "HTML", "level": 5, "color": "purple" },
+      { "name": "CSS", "level": 5, "color": "blue" },
+      { "name": "Node.js / Express.js", "level": 4, "color": "green" },
+      { "name": "Flutter", "level": 3, "color": "blue" }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Series Locker App",
+      "description": "This is a full-stack React application that enables users to add, remove, and track their “Watched” and “Planning to Watch” series.",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "techColors": ["blue", "green", "red"],
+      "status": "FINISHED",
+      "statusColor": "green",
+      "gradient": "fromYellowToRed",
+      "icon": "fas fa-tv",
+      "codeLink": "https://github.com/AmmarAlhmoud/Series-Locker-App",
+      "demoLink": "https://series-locker.netlify.app/"
+    },
+    {
+      "id": 2,
+      "title": "University Clubs System",
+      "description": "This full-stack React application is a club management system developed for Üsküdar University. It includes features tailored for three types of users.",
+      "technologies": ["React", "Firebase"],
+      "techColors": ["blue", "red"],
+      "status": "FINISHED",
+      "statusColor": "green",
+      "gradient": "fromBlueToPurple",
+      "icon": "fas fa-book",
+      "codeLink": "https://github.com/AmmarAlhmoud/React-Clubs-System",
+      "demoLink": "https://et-clubs-system.netlify.app/"
+    },
+    {
+      "id": 3,
+      "title": "Cloud App",
+      "description": "This is a full-stack React application allows users to upload, manage, and view documents, images, and videos in a cloud storage environment.",
+      "technologies": ["React", "Firebase"],
+      "techColors": ["blue", "red"],
+      "status": "FINISHED",
+      "statusColor": "green",
+      "gradient": "fromPurpleToPink",
+      "icon": "fas fa-tv",
+      "codeLink": "https://github.com/AmmarAlhmoud/React-Cloud-App",
+      "demoLink": "https://et-cloud.netlify.app/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "C",
+      "icon": "fas fa-code",
+      "color": "blue-600",
+      "animation": "bounce"
+    },
+    {
+      "name": "C++",
+      "icon": "fas fa-code",
+      "color": "blue-600",
+      "animation": "pulse"
+    },
+    {
+      "name": "Java",
+      "icon": "fab fa-java",
+      "color": "orange-600",
+      "animation": "spin"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "fab fa-js-square",
+      "color": "yellow-400",
+      "animation": "bounce"
+    },
+    {
+      "name": "Python",
+      "icon": "fab fa-python",
+      "color": "blue-500",
+      "animation": "pulse"
+    },
+    {
+      "name": "HTML5",
+      "icon": "fab fa-html5",
+      "color": "orange-500",
+      "animation": "spin"
+    },
+    {
+      "name": "CSS3",
+      "icon": "fab fa-css3-alt",
+      "color": "blue-500",
+      "animation": "bounce"
+    },
+    {
+      "name": "React",
+      "icon": "fab fa-react",
+      "color": "cyan-400",
+      "animation": "spin"
+    },
+    {
+      "name": "React Router",
+      "icon": "fas fa-route",
+      "color": "red-500",
+      "animation": "pulse"
+    },
+    {
+      "name": "Redux",
+      "icon": "fas fa-layer-group",
+      "color": "purple-600",
+      "animation": "bounce"
+    },
+    {
+      "name": "Node.js",
+      "icon": "fab fa-node-js",
+      "color": "green-500",
+      "animation": "spin"
+    },
+    {
+      "name": "Express.js",
+      "icon": "fas fa-server",
+      "color": "white",
+      "animation": "pulse"
+    },
+    {
+      "name": "Flutter",
+      "icon": "fas fa-mobile-alt",
+      "color": "blue-500",
+      "animation": "bounce"
+    },
+    {
+      "name": "Firebase",
+      "icon": "fas fa-fire",
+      "color": "orange-400",
+      "animation": "spin"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "fas fa-leaf",
+      "color": "green-500",
+      "animation": "pulse"
+    },
+    {
+      "name": "MySQL",
+      "icon": "fas fa-database",
+      "color": "blue-600",
+      "animation": "bounce"
+    },
+    {
+      "name": "Figma",
+      "icon": "fab fa-figma",
+      "color": "pink-500",
+      "animation": "spin"
+    },
+    {
+      "name": "Git",
+      "icon": "fab fa-git-alt",
+      "color": "red-500",
+      "animation": "pulse"
+    },
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "color": "white",
+      "animation": "bounce"
+    }
+  ],
+  "contact": {
+    "title": "LET'S CONNECT",
+    "subtitle": "Get In Touch",
+    "items": [
+      {
+        "type": "email",
+        "label": "Email",
+        "value": "ammar.m.alhmoud@gmail.com",
+        "icon": "fas fa-envelope",
+        "iconClass": "iconEmail"
+      },
+      {
+        "type": "phone",
+        "label": "Phone",
+        "value": "+90 5347048020",
+        "icon": "fas fa-phone",
+        "iconClass": "iconPhone"
+      },
+      {
+        "type": "location",
+        "label": "Location",
+        "value": "Istanbul, Turkey",
+        "icon": "fas fa-map-marker-alt",
+        "iconClass": "iconLocation"
+      }
+    ],
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "your.email@example.com",
+      "messagePlaceholder": "Tell me about your project...",
+      "submitText": "Send Message",
+      "successText": "Message Sent! 🚀"
+    }
+  },
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "icon": "fab fa-github",
+      "url": "https://github.com/AmmarAlhmoud",
+      "gradient": "from-gray-800 to-black",
+      "styleClass": "socialGithub"
+    },
+    {
+      "platform": "LinkedIn",
+      "icon": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/ammar-alhmoud-59b531336/",
+      "styleClass": "socialLinkedin"
+    },
+    {
+      "platform": "Instagram",
+      "icon": "fab fa-instagram",
+      "url": "https://www.instagram.com/3mar_x3/",
+      "styleClass": "socialInstagram"
+    },
+    {
+      "platform": "Email",
+      "icon": "fas fa-envelope",
+      "url": "mailto:ammar.m.alhmoud@gmail.com",
+      "styleClass": "socialEmail"
+    }
+  ]
+}

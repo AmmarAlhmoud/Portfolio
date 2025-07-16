@@ -1,0 +1,226 @@
+/* Section styling */
+.section {
+  padding: 5rem 0;
+  background-color: #111827;
+}
+
+.sectionLight {
+  padding: 5rem 0;
+  background: #f1eeff;
+}
+
+/* Container */
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.gradientText {
+  background: linear-gradient(45deg, #10b981, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.divider {
+  width: 6rem;
+  height: 0.25rem;
+  background: linear-gradient(to right, #10b981, #3b82f6);
+  margin: 0 auto;
+}
+
+/* Skills Grid */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .skillsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skillsGrid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Skill Card */
+.skillCard {
+  background: #0c111b;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  cursor: default;
+}
+.skillCardDark {
+  background: #fff;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  cursor: default;
+}
+
+.skillCardDark:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+}
+
+.skillCard:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+}
+
+/* Skill Icon */
+.skillIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Skill Name */
+.skillName {
+  font-weight: 700;
+}
+
+/* Color Utility Classes */
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.text-orange-600 {
+  color: #ea580c;
+}
+
+.text-orange-500 {
+  color: #f97316;
+}
+
+.text-yellow-400 {
+  color: #facc15;
+}
+
+.text-blue-500 {
+  color: #3b82f6;
+}
+
+.text-cyan-400 {
+  color: #22d3ee;
+}
+
+.text-red-500 {
+  color: #ef4444;
+}
+
+.text-purple-600 {
+  color: #9333ea;
+}
+
+.text-green-500 {
+  color: #22c55e;
+}
+
+.text-orange-400 {
+  color: #fb923c;
+}
+
+.text-pink-500 {
+  color: #ec4899;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* Global Animation Classes - Default state */
+:global(.animate-bounce) {
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+:global(.animate-pulse) {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+:global(.animate-spin) {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+/* Trigger animations on hover */
+.group:hover :global(.animate-bounce) {
+  animation: bounce 1s infinite;
+}
+
+.group:hover :global(.animate-pulse) {
+  animation: pulse 2s infinite;
+}
+
+.group:hover :global(.animate-spin) {
+  animation: spin 1s linear infinite;
+}
+
+/* Keyframes for animations */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25%);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

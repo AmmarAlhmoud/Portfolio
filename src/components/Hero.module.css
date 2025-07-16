@@ -1,0 +1,400 @@
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 0.8rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: var(--background-color);
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.backgroundElements {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.floatingElement {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+}
+
+.bluePulse {
+  top: 6rem;
+  left: 2.5rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: #60a5fa;
+  border-radius: 50%;
+  animation: pulseRing 2s infinite;
+}
+
+.purpleHexagon {
+  top: 10rem;
+  right: 5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #a78bfa;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.pinkTriangle {
+  bottom: 6rem;
+  left: 25%;
+  width: 2rem;
+  height: 2rem;
+  background-color: #f472b6;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.greenPulse {
+  top: 29%;
+  right: 33.333333%;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #4ade80;
+  border-radius: 50%;
+  animation: pulseRing 2s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+.content {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.leftColumn {
+  animation: slideInLeft 1s ease-out;
+}
+
+.rightColumn {
+  animation: slideInRight 1s ease-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.availabilityBadge {
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  padding: 0.5rem 1rem;
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.title {
+  font-size: 3.75rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 6rem;
+  }
+}
+
+.firstName {
+  display: block;
+  background: linear-gradient(to right, #fbbf24, #ef4444, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: pulse 2s infinite;
+}
+
+.lastName {
+  display: block;
+  color: var(--text-color);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  color: var(--subtext-color);
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 1.875rem;
+  }
+}
+
+.blueText {
+  color: #60a5fa;
+}
+
+.purpleText {
+  color: #a78bfa;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  max-width: 32rem;
+  color: var(--description-color);
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .buttonGroup {
+    flex-direction: row;
+  }
+}
+
+.primaryButton {
+  position: relative;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  overflow: hidden;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonText {
+  position: relative;
+  z-index: 10;
+}
+
+.buttonOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.primaryButton:hover .buttonOverlay {
+  transform: scaleX(1);
+}
+
+.secondaryButton {
+  padding: 1rem 2rem;
+  border: 2px solid var(--button-border);
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  transition: all 0.3s ease;
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.secondaryButton:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.profileContainer {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.spinningRing {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #3b82f6, #9333ea, #ec4899);
+  border-radius: 50%;
+  animation: spin 10s linear infinite;
+}
+
+.profileInner {
+  background-color: var(--profile-bg);
+  position: absolute;
+  inset: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileIcon {
+  width: 16rem;
+  height: 16rem;
+  background: linear-gradient(to bottom right, #60a5fa, #9333ea);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  color: white;
+}
+
+.orbitContainer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.techOrbit {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.875rem;
+  animation: orbit 20s linear infinite;
+}
+
+.reactOrbit {
+  color: #60a5fa;
+  animation-delay: 0s;
+}
+
+.jsOrbit {
+  color: #facc15;
+  animation-delay: -5s;
+}
+
+.pythonOrbit {
+  color: #4ade80;
+  animation-delay: -10s;
+}
+
+.nodeOrbit {
+  color: #10b981;
+  animation-delay: -15s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(6rem) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(6rem) rotate(-360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,480 @@
+.section {
+  padding: 5rem 0;
+}
+
+.sectionLight {
+  background-color: linear-gradient(135deg, #eff6ff 0%, #f3e8ff 100%);
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.gradientText {
+  background: linear-gradient(45deg, #3b82f6, #9333ea, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.divider {
+  width: 6rem;
+  height: 0.25rem;
+  background: linear-gradient(to right, #ec4899, #eab308);
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.projectCard {
+  position: relative;
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  overflow: hidden;
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+
+.projectCard:hover .card {
+  transform: scale(1.05);
+}
+
+.cardHeader {
+  height: 12rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.iconContainer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.statusBadge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+
+.status {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 1px solid;
+}
+
+/* Status Colors */
+.greenS {
+  background-color: #22c55e;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.yellowS {
+  background-color: #eab308;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.blueS {
+  background-color: #3b82f6;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.purpleS {
+  background-color: #8b5cf6;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.redS {
+  background-color: #ef4444;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.orangeS {
+  background-color: #f97316;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.pinkS {
+  background-color: #f472b6;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.cyanS {
+  background-color: #22d3ee;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+.grayS {
+  background-color: #9ca3af;
+  color: #000;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+.cardBody {
+  padding: 1.5rem;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(45deg, #3b82f6, #9333ea, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.description {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.techTag {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  border: 1px solid;
+}
+
+/* Color variations for tech tags */
+.yellow {
+  background-color: rgba(234, 179, 8, 0.2);
+  color: #fde047;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+}
+
+.green {
+  background-color: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.blue {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.purple {
+  background-color: rgba(139, 92, 246, 0.2);
+  color: #c4b5fd;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.red {
+  background-color: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.orange {
+  background-color: rgba(249, 115, 22, 0.2);
+  color: #fdba74;
+  border: 1px solid rgba(249, 115, 22, 0.3);
+}
+
+.pink {
+  background-color: rgba(244, 114, 182, 0.2);
+  color: #f472b6;
+  border: 1px solid rgba(244, 114, 182, 0.3);
+}
+
+.cyan {
+  background-color: rgba(34, 211, 238, 0.2);
+  color: #22d3ee;
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+
+.gray {
+  background-color: rgba(156, 163, 175, 0.2);
+  color: #9ca3af;
+  border: 1px solid rgba(156, 163, 175, 0.3);
+}
+
+/* Light Theme: Darker Variants for Tech Tags */
+
+.yellowLight {
+  background-color: rgba(202, 138, 4, 0.2);
+  color: #b45309;
+  border: 1px solid rgba(202, 138, 4, 0.3);
+}
+
+.greenLight {
+  background-color: rgba(22, 163, 74, 0.2);
+  color: #15803d;
+  border: 1px solid rgba(22, 163, 74, 0.3);
+}
+
+.blueLight {
+  background-color: rgba(37, 99, 235, 0.2);
+  color: #1d4ed8;
+  border: 1px solid rgba(37, 99, 235, 0.3);
+}
+
+.purpleLight {
+  background-color: rgba(109, 40, 217, 0.2);
+  color: #7e22ce;
+  border: 1px solid rgba(109, 40, 217, 0.3);
+}
+
+.redLight {
+  background-color: rgba(220, 38, 38, 0.2);
+  color: #b91c1c;
+  border: 1px solid rgba(220, 38, 38, 0.3);
+}
+
+.orangeLight {
+  background-color: rgba(234, 88, 12, 0.2);
+  color: #c2410c;
+  border: 1px solid rgba(234, 88, 12, 0.3);
+}
+
+.pinkLight {
+  background-color: rgba(219, 39, 119, 0.2);
+  color: #be185d;
+  border: 1px solid rgba(219, 39, 119, 0.3);
+}
+
+.cyanLight {
+  background-color: rgba(6, 182, 212, 0.2);
+  color: #0e7490;
+  border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.grayLight {
+  background-color: rgba(107, 114, 128, 0.2);
+  color: #4b5563;
+  border: 1px solid rgba(107, 114, 128, 0.3);
+}
+
+/* Gradient variations for project headers */
+.fromBlueToPurple {
+  background: linear-gradient(to bottom right, #3b82f6, #9333ea);
+}
+
+.fromPurpleToPink {
+  background: linear-gradient(to bottom right, #9333ea, #ec4899);
+}
+
+.fromGreenToBlue {
+  background: linear-gradient(to bottom right, #10b981, #3b82f6);
+}
+
+.fromYellowToRed {
+  background: linear-gradient(to bottom right, #f59e0b, #ef4444);
+}
+
+.fromPinkToYellow {
+  background: linear-gradient(to bottom right, #ec4899, #f59e0b);
+}
+
+.fromCyanToBlue {
+  background: linear-gradient(to bottom right, #06b6d4, #3b82f6);
+}
+
+.defaultGradient {
+  background: linear-gradient(to bottom right, #6b7280, #374151);
+}
+
+/* Buttons */
+
+.buttonGroup {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.codeButton {
+  flex: 1;
+  background: linear-gradient(to right, #1f2937, #111827);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.codeButton:hover {
+  background: linear-gradient(to right, #374151, #1f2937);
+}
+
+.codeButton i {
+  margin-right: 0.25rem;
+}
+
+.demoButton {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demoButton:hover {
+  opacity: 85%;
+}
+
+.demoButton i {
+  margin-right: 0.25rem;
+}
+
+/* Future project styles */
+.futureProject {
+  position: relative;
+  opacity: 0.5;
+}
+
+.futureCard {
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.futureCardHeader {
+  height: 12rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.futureContent {
+  text-align: center;
+}
+
+.futureIcon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.futureTitle,
+.futureSubtitle,
+.futureProjectTitle,
+.futureDescription {
+  margin: 0;
+}
+
+.futureProjectTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.futureTechTag {
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(107, 114, 128, 0.2);
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  border: 1px solid rgba(107, 114, 128, 0.3);
+}
+
+.disabledButton {
+  opacity: 0.4;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
