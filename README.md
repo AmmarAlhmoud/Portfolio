@@ -1,12 +1,70 @@
-# React + Vite
+# 💼 Ammar Alhmoud – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This is a modern, and responsive web application built to showcase my skills, projects, blogs, and professional journey as a **Software Engineering graduate** with a passion for **Web Development** and **Artificial Intelligence**.
 
-Currently, two official plugins are available:
+## 🚀 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [Visit the Portfolio](https://ammaralhmoud.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Features
+
+- 🎯 **Modern UI/UX Design** (Dark/Light mode support)
+- 🧑‍💻 **About Me** – Background, skills, education
+- 🧰 **Tech Stack Section** – Technologies I use
+- 🗂️ **Projects Gallery** – Highlights of real-world projects with links to GitHub and live demos
+- 📫 **Contact Form** – Reach me directly via email
+- 🌐 **Social Links** – GitHub, LinkedIn, Twitter, and more
+- 📄 **Downloadable CV**
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **CSS Modules**
+- **JSON-based dynamic content**
+- **Netlify** (for hosting)
+
+---
+
+## 📸 Screenshots
+
+![Dark Home Section](./screenshots/dark-home.png)
+![Dark About Section](./screenshots/dark-about.png)
+![Light Home Section](./screenshots/light-home.png)
+![Light About Section](./screenshots/light-about.png)
+
+---
+
+## 🎓 About Me
+
+I’m **Ammar Alhmoud**, a recent graduate from **Üsküdar University** with a Bachelor's degree in Software Engineering. I specialize in front-end and full-stack development, and I'm passionate about crafting user-centric web apps and exploring AI applications.
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me on:
+
+- GitHub: [github.com/AmmarAlhmoud](https://github.com/AmmarAlhmoud)
+- LinkedIn: [linkedin.com/in/ammar-alhmoud-59b531336/](https://www.linkedin.com/in/ammar-alhmoud-59b531336/)
+- Email: ammar.m.alhmoud@gmail.com
+
+---
+
+## 🧾 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks to all the tools and open-source libraries that make building amazing things easier every day.
+
+---
+
+⭐ If you like this project, feel free to star the repo or connect with me!
