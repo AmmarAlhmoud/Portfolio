@@ -44,6 +44,7 @@
       { "name": "JavaScript", "level": 4, "color": "green" },
       { "name": "HTML", "level": 5, "color": "purple" },
       { "name": "CSS", "level": 5, "color": "blue" },
+      { "name": "Tailwind CSS", "level": 3, "color": "purple" },
       { "name": "Node.js / Express.js", "level": 4, "color": "green" },
       { "name": "Flutter", "level": 3, "color": "blue" }
     ]
@@ -51,19 +52,6 @@
   "projects": [
     {
       "id": 1,
-      "title": "Series Locker App",
-      "description": "This is a full-stack React application that enables users to add, remove, and track their “Watched” and “Planning to Watch” series.",
-      "technologies": ["React", "Node.js", "MongoDB"],
-      "techColors": ["blue", "green", "red"],
-      "status": "FINISHED",
-      "statusColor": "green",
-      "gradient": "fromYellowToRed",
-      "icon": "fas fa-tv",
-      "codeLink": "https://github.com/AmmarAlhmoud/Series-Locker-App",
-      "demoLink": "https://series-locker.netlify.app/"
-    },
-    {
-      "id": 2,
       "title": "University Clubs System",
       "description": "This full-stack React application is a club management system developed for Üsküdar University. It includes features tailored for three types of users.",
       "technologies": ["React", "Firebase"],
@@ -74,6 +62,19 @@
       "icon": "fas fa-book",
       "codeLink": "https://github.com/AmmarAlhmoud/React-Clubs-System",
       "demoLink": "https://et-clubs-system.netlify.app/"
+    },
+    {
+      "id": 2,
+      "title": "Chat App",
+      "description": "A modern, responsive real-time chat application built with React, Vite, and Firebase, featuring one-to-one messaging, live presence tracking, self-chats, and adaptive UI for desktop and mobile.",
+      "technologies": ["React", "Vite", "Firebase"],
+      "techColors": ["blue", "cyan", "red"],
+      "status": "FINISHED",
+      "statusColor": "green",
+      "gradient": "fromCyanToBlue",
+      "icon": "fas fa-comments",
+      "codeLink": "https://github.com/AmmarAlhmoud/React-Chat-App",
+      "demoLink": "https://chatspace-app.netlify.app/"
     },
     {
       "id": 3,
@@ -87,6 +88,19 @@
       "icon": "fas fa-tv",
       "codeLink": "https://github.com/AmmarAlhmoud/React-Cloud-App",
       "demoLink": "https://et-cloud.netlify.app/"
+    },
+    {
+      "id": 4,
+      "title": "Series Locker App",
+      "description": "This is a full-stack React application that enables users to add, remove, and track their “Watched” and “Planning to Watch” series.",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "techColors": ["blue", "green", "red"],
+      "status": "FINISHED",
+      "statusColor": "green",
+      "gradient": "fromYellowToRed",
+      "icon": "fas fa-tv",
+      "codeLink": "https://github.com/AmmarAlhmoud/Series-Locker-App",
+      "demoLink": "https://series-locker.netlify.app/"
     }
   ],
   "skills": [
@@ -113,6 +127,12 @@
       "icon": "fab fa-js-square",
       "color": "yellow-400",
       "animation": "bounce"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "fas fa-code",
+      "color": "cyan-400",
+      "animation": "pulse"
     },
     {
       "name": "Python",
@@ -161,6 +181,12 @@
       "icon": "fas fa-server",
       "color": "white",
       "animation": "pulse"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "fas fa-wind",
+      "color": "cyan-400",
+      "animation": "bounce"
     },
     {
       "name": "Flutter",
