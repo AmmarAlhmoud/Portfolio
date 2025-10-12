@@ -42,6 +42,7 @@
     "skills": [
       { "name": "React", "level": 4, "color": "blue" },
       { "name": "JavaScript", "level": 4, "color": "green" },
+      { "name": "TypeScript", "level": 3, "color": "blue" },
       { "name": "HTML", "level": 5, "color": "purple" },
       { "name": "CSS", "level": 5, "color": "blue" },
       { "name": "Tailwind CSS", "level": 3, "color": "purple" },
@@ -52,6 +53,41 @@
   "projects": [
     {
       "id": 1,
+      "title": "NeuralFlow – AI Task & Workflow Automation App",
+      "description": "NeuralFlow is a full-stack AI productivity platform that automates task management and workflows with real-time analytics and a futuristic SaaS UI.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redis",
+        "Gemini API",
+        "Vite",
+        "Firebase"
+      ],
+      "techColors": [
+        "blue",
+        "red",
+        "blue",
+        "gray",
+        "green",
+        "yellow",
+        "purple",
+        "blue",
+        "cyan",
+        "red"
+      ],
+      "status": "IN PROGRESS",
+      "statusColor": "red",
+      "gradient": "fromPinkToYellow",
+      "icon": "fas fa-brain",
+      "codeLink": "https://github.com/AmmarAlhmoud/NeuralFIow",
+      "demoLink": "https://neuralflow-app.netlify.app/"
+    },
+    {
+      "id": 2,
       "title": "University Clubs System",
       "description": "This full-stack React application is a club management system developed for Üsküdar University. It includes features tailored for three types of users.",
       "technologies": ["React", "Firebase"],
@@ -64,7 +100,7 @@
       "demoLink": "https://et-clubs-system.netlify.app/"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Chat App",
       "description": "A modern, responsive real-time chat application built with React, Vite, and Firebase, featuring one-to-one messaging, live presence tracking, self-chats, and adaptive UI for desktop and mobile.",
       "technologies": ["React", "Vite", "Firebase"],
@@ -77,7 +113,7 @@
       "demoLink": "https://chatspace-app.netlify.app/"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Cloud App",
       "description": "This is a full-stack React application allows users to upload, manage, and view documents, images, and videos in a cloud storage environment.",
       "technologies": ["React", "Firebase"],
@@ -85,16 +121,16 @@
       "status": "FINISHED",
       "statusColor": "green",
       "gradient": "fromPurpleToPink",
-      "icon": "fas fa-tv",
+      "icon": "fas fa-cloud",
       "codeLink": "https://github.com/AmmarAlhmoud/React-Cloud-App",
       "demoLink": "https://et-cloud.netlify.app/"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Series Locker App",
       "description": "This is a full-stack React application that enables users to add, remove, and track their “Watched” and “Planning to Watch” series.",
-      "technologies": ["React", "Node.js", "MongoDB"],
-      "techColors": ["blue", "green", "red"],
+      "technologies": ["React", "Node.js", "Express.js", "MongoDB"],
+      "techColors": ["blue", "green", "gray", "red"],
       "status": "FINISHED",
       "statusColor": "green",
       "gradient": "fromYellowToRed",
@@ -212,6 +248,25 @@
       "color": "blue-600",
       "animation": "bounce"
     },
+
+    {
+      "name": "Redis",
+      "icon": "fas fa-database",
+      "color": "red-500",
+      "animation": "pulse"
+    },
+    {
+      "name": "BullMQ",
+      "icon": "fas fa-tasks",
+      "color": "yellow-500",
+      "animation": "spin"
+    },
+    {
+      "name": "Docker",
+      "icon": "fab fa-docker",
+      "color": "blue-600",
+      "animation": "bounce"
+    },
     {
       "name": "Figma",
       "icon": "fab fa-figma",
@@ -276,7 +331,7 @@
     {
       "platform": "LinkedIn",
       "icon": "fab fa-linkedin",
-      "url": "https://www.linkedin.com/in/ammar-alhmoud-59b531336/",
+      "url": "https://www.linkedin.com/in/ammaralhmoud/",
       "styleClass": "socialLinkedin"
     },
     {
