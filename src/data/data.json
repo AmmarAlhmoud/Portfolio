@@ -79,8 +79,8 @@
         "cyan",
         "red"
       ],
-      "status": "IN PROGRESS",
-      "statusColor": "red",
+      "status": "FINISHED",
+      "statusColor": "green",
       "gradient": "fromPinkToYellow",
       "icon": "fas fa-brain",
       "codeLink": "https://github.com/AmmarAlhmoud/NeuralFIow",
