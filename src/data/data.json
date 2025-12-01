@@ -40,7 +40,7 @@
       }
     ],
     "skills": [
-      { "name": "React", "level": 4, "color": "blue" },
+      { "name": "React.js", "level": 4, "color": "blue" },
       { "name": "JavaScript", "level": 4, "color": "green" },
       { "name": "TypeScript", "level": 3, "color": "blue" },
       { "name": "HTML", "level": 5, "color": "purple" },
@@ -189,10 +189,16 @@
       "animation": "bounce"
     },
     {
-      "name": "React",
+      "name": "React.js",
       "icon": "fab fa-react",
       "color": "cyan-400",
       "animation": "spin"
+    },
+    {
+      "name": "Next.js",
+      "icon": "fa-solid fa-n",
+      "color": "white",
+      "animation": "pulse"
     },
     {
       "name": "React Router",
